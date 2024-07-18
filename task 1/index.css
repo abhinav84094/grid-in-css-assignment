@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+#gallery{
+    border: 2px solid black;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 31% 31% 31%;
+    grid-template-columns:  32% 32% 32%;
+}
+
+#img1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#img2{
+
+}
+
+#img3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#img4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#img6{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
